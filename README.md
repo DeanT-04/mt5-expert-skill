@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="docs/banner.jpg" width="100%" alt="MT5 Skill Engine Banner" style="border-radius: 12px; margin: 15px 0; border: 1px solid rgba(255, 20, 147, 0.3);" />
+  <img src="docs/banner.jpg" width="100%" alt="Repository Banner" style="border-radius: 16px; margin: 15px 0; border: 1px solid rgba(255, 20, 147, 0.4); box-shadow: 0 8px 32px rgba(255, 20, 147, 0.2);" />
 </p>
-
-<h1 align="center">MT5 Skill Engine</h1>
 
 <p align="center">
   <b>Industrial-Grade MetaTrader 5 (MQL5) Expert Advisor & Indicator Development Engine</b>
