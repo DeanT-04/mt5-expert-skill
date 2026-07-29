@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.jpg" width="100%" alt="Repository Banner" style="border-radius: 16px; margin: 15px 0; border: 1px solid rgba(255, 20, 147, 0.4); box-shadow: 0 8px 32px rgba(255, 20, 147, 0.2);" />
+  <img src="docs/banner_logo.png" width="100%" alt="MT5 Skill Engine Cybernetic Logo Banner" />
 </p>
 
 <p align="center">
