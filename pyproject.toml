@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mt5-expert-v2"
+name = "mt5-skill-engine"
 version = "2.0.0"
 description = "Industrial MT5 Expert Advisor and Custom Indicator Development System with Solution 3 Dual-Layer Indexing"
 readme = "README.md"

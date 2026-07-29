@@ -1,14 +1,18 @@
-<h1 align="center">MT5 Expert v2</h1>
+<p align="center">
+  <img src="docs/banner.jpg" width="100%" alt="MT5 Skill Engine Banner" style="border-radius: 12px; margin: 15px 0; border: 1px solid rgba(255, 20, 147, 0.3);" />
+</p>
+
+<h1 align="center">MT5 Skill Engine</h1>
 
 <p align="center">
   <b>Industrial-Grade MetaTrader 5 (MQL5) Expert Advisor & Indicator Development Engine</b>
 </p>
 
 <p align="center">
-  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+"></a>
-  <a href="https://www.metatrader5.com/"><img src="https://img.shields.io/badge/MetaTrader-5-0078D4.svg?style=for-the-badge&logo=metatrader&logoColor=white" alt="MetaTrader 5"></a>
-  <a href="https://docs.mql5.com/"><img src="https://img.shields.io/badge/MQL5-Standard%20Library-green.svg?style=for-the-badge" alt="MQL5 Standard Library"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.10%2B-FF1493.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+"></a>
+  <a href="https://www.metatrader5.com/"><img src="https://img.shields.io/badge/MetaTrader-5-C71585.svg?style=for-the-badge&logo=metatrader&logoColor=white" alt="MetaTrader 5"></a>
+  <a href="https://docs.mql5.com/"><img src="https://img.shields.io/badge/MQL5-Standard%20Library-8B008B.svg?style=for-the-badge" alt="MQL5 Standard Library"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-DC143C.svg?style=for-the-badge" alt="License: MIT"></a>
   <a href="https://github.com/astral-sh/uv"><img src="https://img.shields.io/badge/managed%20by-uv-DE5FE9.svg?style=for-the-badge" alt="Managed by uv"></a>
 </p>
 
@@ -30,7 +34,7 @@
 
 ## ⚡ Key Highlights
 
-`MT5 Expert v2` is an advanced full-stack MQL5 development engine for generating high-frequency trading strategies, custom technical indicators, ONNX machine learning trading bots, and robust risk management architectures.
+`MT5 Skill Engine` is an advanced full-stack MQL5 development engine for generating high-frequency trading strategies, custom technical indicators, ONNX machine learning trading bots, and robust risk management architectures.
 
 - 🚀 **Dual-Layer High-Speed Indexing**:
   - **Layer 1 (Symbol Map)**: Sub-millisecond (< 1ms) instant symbol resolution for 2,000+ MQL5 native functions, standard library classes (`CTrade`, `CSymbolInfo`, `CPositionInfo`, `CAccountInfo`), enums, and event handlers.
@@ -71,6 +75,7 @@ C:\Users\Deano\Documents\projects\mt5-expert-v2\
 │   ├── mql5_index.db                  <- SQLite FTS5 full-text database (13.5 MB)
 │   └── symbol_map.json                <- Symbol map lookup dictionary
 ├── docs/
+│   ├── banner.jpg                     <- Repository banner image (Bloody Pink theme)
 │   ├── mql5.pdf                       <- Complete MQL5 Reference Manual (7,284 pages)
 │   └── stress-test/                   <- Benchmark and stress test reports
 ├── scripts/
@@ -195,9 +200,9 @@ Generated strategies implement object-oriented architecture using standard libra
 ```cpp
 //+------------------------------------------------------------------+
 //|                                              EMA_Crossover_EA.mq5|
-//|                                  Copyright 2026, MT5 Expert v2   |
+//|                                 Copyright 2026, MT5 Skill Engine |
 //+------------------------------------------------------------------+
-#property copyright "MT5 Expert v2"
+#property copyright "MT5 Skill Engine"
 #property version   "1.00"
 #property strict
 
