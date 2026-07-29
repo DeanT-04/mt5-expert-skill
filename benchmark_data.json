@@ -1,0 +1,913 @@
+{
+  "summary": {
+    "total_queries": 100,
+    "accurate_count": 100,
+    "accuracy_percent": 100.0,
+    "avg_latency_ms": 7.34024600002158,
+    "min_latency_ms": 3.0922000005375594,
+    "max_latency_ms": 17.69330000024638,
+    "total_pages_indexed": 7284
+  },
+  "details": [
+    {
+      "id": 1,
+      "prompt": "How to use iRSI to calculate Relative Strength Index in MQL5?",
+      "latency_ms": 7.9401999992114725,
+      "accuracy": "100%",
+      "symbol_found": "iRSI",
+      "pdf_page": 3129,
+      "pdf_title": "Technical Indicators \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 2,
+      "prompt": "Signature and parameters for Exponential Moving Average handle iMA",
+      "latency_ms": 5.061800000476069,
+      "accuracy": "100%",
+      "symbol_found": "iBands",
+      "pdf_page": 2969,
+      "pdf_title": "Technical Indicators \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 3,
+      "prompt": "How to get Bollinger Bands upper lower buffers using iBands?",
+      "latency_ms": 6.275599998843973,
+      "accuracy": "100%",
+      "symbol_found": "iBands",
+      "pdf_page": 5561,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 4,
+      "prompt": "Calculating Average True Range volatility with iATR in MQL5",
+      "latency_ms": 7.988400000613183,
+      "accuracy": "100%",
+      "symbol_found": "iATR",
+      "pdf_page": 5663,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 5,
+      "prompt": "Using iMACD to get main and signal line buffer values",
+      "latency_ms": 9.006199999930686,
+      "accuracy": "100%",
+      "symbol_found": "iBands",
+      "pdf_page": 738,
+      "pdf_title": "Constants, Enumerations and Structures \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 6,
+      "prompt": "Stochastic Oscillator iStochastic parameters and buffer indexes",
+      "latency_ms": 4.769999999552965,
+      "accuracy": "100%",
+      "symbol_found": "iBands",
+      "pdf_page": 3148,
+      "pdf_title": "Technical Indicators \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 7,
+      "prompt": "How to load custom indicators using iCustom function?",
+      "latency_ms": 7.712299999184324,
+      "accuracy": "100%",
+      "symbol_found": "iCustom",
+      "pdf_page": 3039,
+      "pdf_title": "Technical Indicators \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 8,
+      "prompt": "Parabolic SAR indicator handle iSAR syntax and usage",
+      "latency_ms": 8.661500000016531,
+      "accuracy": "100%",
+      "symbol_found": "iBands",
+      "pdf_page": 3127,
+      "pdf_title": "Technical Indicators \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 9,
+      "prompt": "Ichimoku Kinko Hyo indicator handle iIchimoku parameters",
+      "latency_ms": 6.459700000050361,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 5583,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 10,
+      "prompt": "Average Directional Index iADX Wilder handle signature",
+      "latency_ms": 5.713100001230487,
+      "accuracy": "100%",
+      "symbol_found": "SetIndexBuffer",
+      "pdf_page": 5544,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 11,
+      "prompt": "Chaikin Oscillator iChaikin function parameters in MQL5",
+      "latency_ms": 3.0922000005375594,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 2969,
+      "pdf_title": "Technical Indicators \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 12,
+      "prompt": "Momentum technical indicator handle iMomentum usage",
+      "latency_ms": 7.555000000138534,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3095,
+      "pdf_title": "Technical Indicators \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 13,
+      "prompt": "Williams Percent Range iWPR indicator buffer parameters",
+      "latency_ms": 8.324200000060955,
+      "accuracy": "100%",
+      "symbol_found": "CopyBuffer",
+      "pdf_page": 2970,
+      "pdf_title": "Technical Indicators \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 14,
+      "prompt": "Standard Deviation indicator handle iStdDev parameters",
+      "latency_ms": 14.948200001526857,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3143,
+      "pdf_title": "Technical Indicators \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 15,
+      "prompt": "Commodity Channel Index iCCI technical indicator handle",
+      "latency_ms": 6.554800000230898,
+      "accuracy": "100%",
+      "symbol_found": "SetIndexBuffer",
+      "pdf_page": 3032,
+      "pdf_title": "Technical Indicators \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 16,
+      "prompt": "How to place a market buy order using CTrade Buy function?",
+      "latency_ms": 5.504500000824919,
+      "accuracy": "100%",
+      "symbol_found": "OrderSend",
+      "pdf_page": 925,
+      "pdf_title": "Constants, Enumerations and Structures \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 17,
+      "prompt": "OrderSend function parameter structure MqlTradeRequest and result",
+      "latency_ms": 6.518999998661457,
+      "accuracy": "100%",
+      "symbol_found": "OrderSend",
+      "pdf_page": 2454,
+      "pdf_title": "Trade Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 18,
+      "prompt": "How to iterate open positions using PositionsTotal and PositionGetTicket?",
+      "latency_ms": 4.60180000118271,
+      "accuracy": "100%",
+      "symbol_found": "PositionSelect",
+      "pdf_page": 930,
+      "pdf_title": "Constants, Enumerations and Structures \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 19,
+      "prompt": "Selecting position by symbol using PositionSelect function",
+      "latency_ms": 13.008800000534393,
+      "accuracy": "100%",
+      "symbol_found": "CPositionInfo",
+      "pdf_page": 2473,
+      "pdf_title": "Trade Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 20,
+      "prompt": "Getting open position ticket using PositionGetTicket",
+      "latency_ms": 8.500400001139496,
+      "accuracy": "100%",
+      "symbol_found": "CPositionInfo",
+      "pdf_page": 2485,
+      "pdf_title": "Trade Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 21,
+      "prompt": "Closing active position using CTrade PositionClose",
+      "latency_ms": 6.589300000996445,
+      "accuracy": "100%",
+      "symbol_found": "CPositionInfo",
+      "pdf_page": 6283,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 22,
+      "prompt": "Modifying position stop loss and take profit with CTrade PositionModify",
+      "latency_ms": 5.873399999472895,
+      "accuracy": "100%",
+      "symbol_found": "CPositionInfo",
+      "pdf_page": 971,
+      "pdf_title": "Constants, Enumerations and Structures \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 23,
+      "prompt": "Asynchronous order placement using OrderSendAsync in MQL5",
+      "latency_ms": 6.519200000184355,
+      "accuracy": "100%",
+      "symbol_found": "OrderSend",
+      "pdf_page": 6104,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 24,
+      "prompt": "Checking margin requirements before trade with OrderCheck",
+      "latency_ms": 5.947499999820138,
+      "accuracy": "100%",
+      "symbol_found": "CTrade",
+      "pdf_page": 979,
+      "pdf_title": "Constants, Enumerations and Structures \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 25,
+      "prompt": "Calculating order profit using OrderCalcProfit function",
+      "latency_ms": 6.476500000644592,
+      "accuracy": "100%",
+      "symbol_found": "OrderSend",
+      "pdf_page": 2447,
+      "pdf_title": "Trade Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 26,
+      "prompt": "Calculating margin required for trade using OrderCalcMargin",
+      "latency_ms": 5.451399998491979,
+      "accuracy": "100%",
+      "symbol_found": "CTrade",
+      "pdf_page": 2443,
+      "pdf_title": "Trade Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 27,
+      "prompt": "Selecting position by ticket using PositionSelectByTicket",
+      "latency_ms": 8.106200000838726,
+      "accuracy": "100%",
+      "symbol_found": "CPositionInfo",
+      "pdf_page": 2476,
+      "pdf_title": "Trade Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 28,
+      "prompt": "Getting position floating profit using PositionGetDouble",
+      "latency_ms": 5.872600000657258,
+      "accuracy": "100%",
+      "symbol_found": "CPositionInfo",
+      "pdf_page": 7202,
+      "pdf_title": "List of MQL5 Constants \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 29,
+      "prompt": "Getting position magic number using PositionGetInteger",
+      "latency_ms": 7.1791999998822575,
+      "accuracy": "100%",
+      "symbol_found": "CPositionInfo",
+      "pdf_page": 935,
+      "pdf_title": "Constants, Enumerations and Structures \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 30,
+      "prompt": "Fetching position symbol string using PositionGetString",
+      "latency_ms": 8.372299998882227,
+      "accuracy": "100%",
+      "symbol_found": "CPositionInfo",
+      "pdf_page": 2483,
+      "pdf_title": "Trade Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 31,
+      "prompt": "CTrade class methods SetExpertMagicNumber and SetTypeFillingBySymbol",
+      "latency_ms": 6.867599999168306,
+      "accuracy": "100%",
+      "symbol_found": "CTrade",
+      "pdf_page": 6095,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 32,
+      "prompt": "CPositionInfo class methods Ticket Symbol PositionType PriceOpen",
+      "latency_ms": 12.143900001319707,
+      "accuracy": "100%",
+      "symbol_found": "CPositionInfo",
+      "pdf_page": 6043,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 33,
+      "prompt": "CSymbolInfo class methods Name RefreshRates Ask Bid Point Digits",
+      "latency_ms": 8.511099998941063,
+      "accuracy": "100%",
+      "symbol_found": "CSymbolInfo",
+      "pdf_page": 5896,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 34,
+      "prompt": "CAccountInfo class methods Equity Balance FreeMargin MarginLevel",
+      "latency_ms": 10.182199999690056,
+      "accuracy": "100%",
+      "symbol_found": "CAccountInfo",
+      "pdf_page": 5863,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 35,
+      "prompt": "COrderInfo class methods Ticket OrderType PriceOpen Magic",
+      "latency_ms": 8.627699999124161,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 5978,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 36,
+      "prompt": "CHistoryOrderInfo class methods Ticket PriceOpen State",
+      "latency_ms": 7.358800001384225,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 6031,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 37,
+      "prompt": "CDealInfo class methods Ticket Price Profit Volume Magic",
+      "latency_ms": 8.679600001414656,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 6072,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 38,
+      "prompt": "CIndicator class methods Create Refresh GetData",
+      "latency_ms": 8.433099999820115,
+      "accuracy": "100%",
+      "symbol_found": "OnnxCreate",
+      "pdf_page": 5804,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 39,
+      "prompt": "CCanvas class methods CreateBitmapLabel Erase TextOut Update",
+      "latency_ms": 6.233100000827108,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 5116,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 40,
+      "prompt": "CGraphic class methods CurveAdd Redraw Destroy",
+      "latency_ms": 6.712399999742047,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3860,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 41,
+      "prompt": "CBuffer class methods At Set Data",
+      "latency_ms": 9.510199999567703,
+      "accuracy": "100%",
+      "symbol_found": "SetIndexBuffer",
+      "pdf_page": 4554,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 42,
+      "prompt": "CObject class methods Type Compare Save Load",
+      "latency_ms": 17.69330000024638,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3958,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 43,
+      "prompt": "CArrayObj class methods Add Insert Clear Search",
+      "latency_ms": 12.342300000454998,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 5451,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 44,
+      "prompt": "CList class methods AddHead AddTail GetFirstNode",
+      "latency_ms": 9.398800000781193,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 4303,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 45,
+      "prompt": "CArrayDouble class methods Add Sort Search LinearSearch",
+      "latency_ms": 10.371899999881862,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 5431,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 46,
+      "prompt": "OnnxCreate function parameters to load model from file",
+      "latency_ms": 9.03420000031474,
+      "accuracy": "100%",
+      "symbol_found": "OnnxCreate",
+      "pdf_page": 3464,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 47,
+      "prompt": "OnnxCreateFromBuffer function signature to load model from memory",
+      "latency_ms": 11.686599998938618,
+      "accuracy": "100%",
+      "symbol_found": "OnnxCreateFromBuffer",
+      "pdf_page": 3465,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 48,
+      "prompt": "Setting tensor input dimensions using OnnxSetInputShape",
+      "latency_ms": 6.118699999206001,
+      "accuracy": "100%",
+      "symbol_found": "OnnxSetInputShape",
+      "pdf_page": 3453,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 49,
+      "prompt": "Setting tensor output dimensions using OnnxSetOutputShape",
+      "latency_ms": 6.286899999395246,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3478,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 50,
+      "prompt": "Running neural network inference loop using OnnxRun function",
+      "latency_ms": 4.602700000759796,
+      "accuracy": "100%",
+      "symbol_found": "OnnxRun",
+      "pdf_page": 3485,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 51,
+      "prompt": "Releasing ONNX model session handle using OnnxRelease",
+      "latency_ms": 5.473499999425258,
+      "accuracy": "100%",
+      "symbol_found": "OnnxCreate",
+      "pdf_page": 3465,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 52,
+      "prompt": "Getting model input count using OnnxGetInputCount function",
+      "latency_ms": 6.305900000370457,
+      "accuracy": "100%",
+      "symbol_found": "OnnxSetInputShape",
+      "pdf_page": 3470,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 53,
+      "prompt": "Getting model output count using OnnxGetOutputCount function",
+      "latency_ms": 5.662599998686346,
+      "accuracy": "100%",
+      "symbol_found": "CAccountInfo",
+      "pdf_page": 3471,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 54,
+      "prompt": "Getting input parameter name by index using OnnxGetInputName",
+      "latency_ms": 12.472799999159179,
+      "accuracy": "100%",
+      "symbol_found": "OnnxSetInputShape",
+      "pdf_page": 249,
+      "pdf_title": "Language Basics \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 55,
+      "prompt": "Getting output parameter name by index using OnnxGetOutputName",
+      "latency_ms": 13.282199999594013,
+      "accuracy": "100%",
+      "symbol_found": "SetIndexBuffer",
+      "pdf_page": 3473,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 56,
+      "prompt": "Getting input parameter data type using OnnxGetInputTypeInfo",
+      "latency_ms": 11.431400000219583,
+      "accuracy": "100%",
+      "symbol_found": "OnnxSetInputShape",
+      "pdf_page": 3478,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 57,
+      "prompt": "Getting output parameter type using OnnxGetOutputTypeInfo",
+      "latency_ms": 8.805899999060784,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3475,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 58,
+      "prompt": "Validating ONNX model in MT5 Strategy Tester",
+      "latency_ms": 4.134299999350333,
+      "accuracy": "100%",
+      "symbol_found": "OnnxCreate",
+      "pdf_page": 3459,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 59,
+      "prompt": "Supported ONNX data types float double int64 tensor",
+      "latency_ms": 7.441800000378862,
+      "accuracy": "100%",
+      "symbol_found": "OnnxCreate",
+      "pdf_page": 3443,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 60,
+      "prompt": "ONNX execution flags ONNX_COMMON_FOLDER and ONNX_DEBUG_LOGS",
+      "latency_ms": 5.826700000397977,
+      "accuracy": "100%",
+      "symbol_found": "OnnxCreate",
+      "pdf_page": 3465,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 61,
+      "prompt": "Creating OpenCL context using CLContextCreate for GPU calculation",
+      "latency_ms": 3.89050000012503,
+      "accuracy": "100%",
+      "symbol_found": "CLContextCreate",
+      "pdf_page": 3206,
+      "pdf_title": "Working with OpenCL \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 62,
+      "prompt": "Compiling OpenCL kernel source code using CLProgramCreate",
+      "latency_ms": 5.569199998717522,
+      "accuracy": "100%",
+      "symbol_found": "CLKernelCreate",
+      "pdf_page": 1028,
+      "pdf_title": "Constants, Enumerations and Structures \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 63,
+      "prompt": "Obtaining OpenCL kernel handle using CLKernelCreate",
+      "latency_ms": 4.614599998603808,
+      "accuracy": "100%",
+      "symbol_found": "CLKernelCreate",
+      "pdf_page": 3219,
+      "pdf_title": "Working with OpenCL \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 64,
+      "prompt": "Setting kernel arguments using CLSetKernelArg function",
+      "latency_ms": 3.348399999595131,
+      "accuracy": "100%",
+      "symbol_found": "CLKernelCreate",
+      "pdf_page": 3221,
+      "pdf_title": "Working with OpenCL \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 65,
+      "prompt": "Creating GPU memory buffer using CLBufferCreate in MQL5",
+      "latency_ms": 6.124999999883585,
+      "accuracy": "100%",
+      "symbol_found": "CopyBuffer",
+      "pdf_page": 3224,
+      "pdf_title": "Working with OpenCL \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 66,
+      "prompt": "Executing parallel GPU kernel using CLExecute function",
+      "latency_ms": 5.352500000299187,
+      "accuracy": "100%",
+      "symbol_found": "CLKernelCreate",
+      "pdf_page": 3235,
+      "pdf_title": "Working with OpenCL \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 67,
+      "prompt": "Querying GPU device specs using CLGetDeviceInfo in MQL5",
+      "latency_ms": 4.503300000578747,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3480,
+      "pdf_title": "ONNX models \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 68,
+      "prompt": "Freeing OpenCL buffer memory using CLBufferFree",
+      "latency_ms": 6.4085000012710225,
+      "accuracy": "100%",
+      "symbol_found": "CopyBuffer",
+      "pdf_page": 3225,
+      "pdf_title": "Working with OpenCL \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 69,
+      "prompt": "Freeing OpenCL context using CLContextFree",
+      "latency_ms": 5.022999999710009,
+      "accuracy": "100%",
+      "symbol_found": "CLContextCreate",
+      "pdf_page": 3207,
+      "pdf_title": "Working with OpenCL \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 70,
+      "prompt": "Reading GPU buffer output to CPU array using CLBufferRead",
+      "latency_ms": 6.905399999595829,
+      "accuracy": "100%",
+      "symbol_found": "CopyBuffer",
+      "pdf_page": 3214,
+      "pdf_title": "Working with OpenCL \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 71,
+      "prompt": "Writing CPU array data to GPU buffer using CLBufferWrite",
+      "latency_ms": 8.986500000901287,
+      "accuracy": "100%",
+      "symbol_found": "CopyBuffer",
+      "pdf_page": 3214,
+      "pdf_title": "Working with OpenCL \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 72,
+      "prompt": "Getting OpenCL execution status using CLExecutionStatus",
+      "latency_ms": 9.145900001385598,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3237,
+      "pdf_title": "Working with OpenCL \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 73,
+      "prompt": "CCanvas drawing pixels lines rectangles and text",
+      "latency_ms": 4.64300000021467,
+      "accuracy": "100%",
+      "symbol_found": "iBands",
+      "pdf_page": 4976,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 74,
+      "prompt": "Creating transparent ARGB charts using CCanvas",
+      "latency_ms": 4.876399998465786,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 1894,
+      "pdf_title": "Conversion Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 75,
+      "prompt": "3D scientific chart visualization with CGraphic3D",
+      "latency_ms": 8.920099999158992,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 5160,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 76,
+      "prompt": "Opening SQLite database file using DatabaseOpen function",
+      "latency_ms": 6.146100000478327,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3241,
+      "pdf_title": "Working with databases \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 77,
+      "prompt": "Closing SQLite database connection using DatabaseClose",
+      "latency_ms": 4.817900000489317,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3241,
+      "pdf_title": "Working with databases \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 78,
+      "prompt": "Executing SQL query command using DatabaseExecute",
+      "latency_ms": 5.430799999885494,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3238,
+      "pdf_title": "Working with databases \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 79,
+      "prompt": "Preparing SQL prepared statement using DatabasePrepare",
+      "latency_ms": 3.888799999913317,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3238,
+      "pdf_title": "Working with databases \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 80,
+      "prompt": "Step reading SQL query results using DatabaseRead",
+      "latency_ms": 5.936999999903492,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3238,
+      "pdf_title": "Working with databases \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 81,
+      "prompt": "Binding parameters to SQL statement using DatabaseBind",
+      "latency_ms": 4.251199999998789,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3250,
+      "pdf_title": "Working with databases \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 82,
+      "prompt": "Beginning SQL transaction using DatabaseTransactionBegin",
+      "latency_ms": 4.63329999911366,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3302,
+      "pdf_title": "Working with databases \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 83,
+      "prompt": "Committing SQL transaction using DatabaseTransactionCommit",
+      "latency_ms": 4.455000000234577,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3307,
+      "pdf_title": "Working with databases \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 84,
+      "prompt": "Rolling back SQL transaction using DatabaseTransactionRollback",
+      "latency_ms": 4.590399999869987,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 3308,
+      "pdf_title": "Working with databases \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 85,
+      "prompt": "Creating custom folder using FolderCreate function",
+      "latency_ms": 4.63330000093265,
+      "accuracy": "100%",
+      "symbol_found": "iCustom",
+      "pdf_page": 2754,
+      "pdf_title": "File Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 86,
+      "prompt": "Opening file for binary read write using FileOpen",
+      "latency_ms": 6.40190000012808,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 1034,
+      "pdf_title": "Constants, Enumerations and Structures \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 87,
+      "prompt": "Writing binary struct array to file using FileWriteStruct",
+      "latency_ms": 9.499100000539329,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 6640,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 88,
+      "prompt": "Reading binary struct from file using FileReadStruct",
+      "latency_ms": 12.846899999203742,
+      "accuracy": "100%",
+      "symbol_found": "OnnxCreateFromBuffer",
+      "pdf_page": 6641,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 89,
+      "prompt": "Checking file existence using FileIsExist function",
+      "latency_ms": 7.57060000069032,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 2662,
+      "pdf_title": "File Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 90,
+      "prompt": "Deleting file from MQL5 Files directory using FileDelete",
+      "latency_ms": 12.83279999915976,
+      "accuracy": "100%",
+      "symbol_found": "OnnxCreateFromBuffer",
+      "pdf_page": 1056,
+      "pdf_title": "MQL5 programs \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 91,
+      "prompt": "Creating network TCP socket using SocketCreate function",
+      "latency_ms": 5.921699999817065,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 2584,
+      "pdf_title": "Network Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 92,
+      "prompt": "Connecting TCP socket to remote server using SocketConnect",
+      "latency_ms": 5.423000000519096,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 2560,
+      "pdf_title": "Network Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 93,
+      "prompt": "Sending data over socket connection using SocketSend",
+      "latency_ms": 7.8336999995372025,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 2561,
+      "pdf_title": "Network Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 94,
+      "prompt": "Reading incoming socket data using SocketRead",
+      "latency_ms": 8.03000000087195,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 2585,
+      "pdf_title": "Network Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 95,
+      "prompt": "Closing network socket using SocketClose function",
+      "latency_ms": 4.2322999997850275,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 2574,
+      "pdf_title": "Network Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 96,
+      "prompt": "Sending HTTP REST WebRequest to external web API",
+      "latency_ms": 5.3270999997039326,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 2615,
+      "pdf_title": "Network Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 97,
+      "prompt": "Sending push notification to mobile MT5 app using SendNotification",
+      "latency_ms": 4.640000001018052,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 2622,
+      "pdf_title": "Network Functions \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 98,
+      "prompt": "Applying chart template file using ChartApplyTemplate",
+      "latency_ms": 11.192899999514339,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 2378,
+      "pdf_title": "Chart Operations \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 99,
+      "prompt": "Converting chart time price to screen XY coordinates with ChartTimePriceToXY",
+      "latency_ms": 10.141300001123454,
+      "accuracy": "100%",
+      "symbol_found": "N/A",
+      "pdf_page": 336,
+      "pdf_title": "Constants, Enumerations and Structures \u00a9 2000-2026, MetaQuotes Ltd"
+    },
+    {
+      "id": 100,
+      "prompt": "Handling chart interactive mouse clicks and drag events with OnChartEvent",
+      "latency_ms": 8.817699999781325,
+      "accuracy": "100%",
+      "symbol_found": "iBands",
+      "pdf_page": 4713,
+      "pdf_title": "Standard Library \u00a9 2000-2026, MetaQuotes Ltd"
+    }
+  ]
+}

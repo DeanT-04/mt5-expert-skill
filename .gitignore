@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# MetaTrader 5 Compiled Logs & Binaries (Keep source templates & mq5)
+*.log
+*.tmp
+*.bak
+
+# Environment & Secret files
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.pfx
+*.p12
+
+# IDE & OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database journal & temp files
+*.db-wal
+*.db-shm
+*.sqlite3-journal
+

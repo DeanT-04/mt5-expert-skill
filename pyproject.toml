@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mt5-expert-v2"
+version = "2.0.0"
+description = "Industrial MT5 Expert Advisor and Custom Indicator Development System with Solution 3 Dual-Layer Indexing"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pypdf>=6.14.0",
+    "pytest>=9.0.0",
+    "pytest-cov>=7.0.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["scripts*"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "--cov=scripts --cov-report=term-missing --cov-fail-under=90"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.coverage.run]
+source = ["scripts"]
+omit = [
+    "scripts/benchmark_db.py",
+    "scripts/generate_benchmark_report.py",
+    "scripts/stress_test_cli.py",
+    "scripts/utils/hardware_detector.py"
+]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 90

@@ -1,0 +1,122 @@
+{
+  "CTrade": {
+    "type": "class",
+    "header": "<Trade\\Trade.mqh>",
+    "description": "Standard Library class for executing trade orders"
+  },
+  "CPositionInfo": {
+    "type": "class",
+    "header": "<Trade\\PositionInfo.mqh>",
+    "description": "Standard Library position details inspector"
+  },
+  "CSymbolInfo": {
+    "type": "class",
+    "header": "<Trade\\SymbolInfo.mqh>",
+    "description": "Standard Library symbol parameters wrapper"
+  },
+  "CAccountInfo": {
+    "type": "class",
+    "header": "<Trade\\AccountInfo.mqh>",
+    "description": "Standard Library account information wrapper"
+  },
+  "OrderSend": {
+    "type": "function",
+    "signature": "bool OrderSend(const MqlTradeRequest &request, MqlTradeResult &result)",
+    "description": "Executes trade transactions"
+  },
+  "PositionSelect": {
+    "type": "function",
+    "signature": "bool PositionSelect(string symbol)",
+    "description": "Selects open position by symbol"
+  },
+  "iMA": {
+    "type": "function",
+    "signature": "int iMA(string symbol, ENUM_TIMEFRAMES timeframe, int ma_period, int ma_shift, ENUM_MA_METHOD ma_method, ENUM_APPLIED_PRICE applied_price)",
+    "description": "Moving Average indicator handle"
+  },
+  "iRSI": {
+    "type": "function",
+    "signature": "int iRSI(string symbol, ENUM_TIMEFRAMES timeframe, int period, ENUM_APPLIED_PRICE applied_price)",
+    "description": "Relative Strength Index indicator handle"
+  },
+  "iBands": {
+    "type": "function",
+    "signature": "int iBands(string symbol, ENUM_TIMEFRAMES timeframe, int bands_period, int bands_shift, double deviation, ENUM_APPLIED_PRICE applied_price)",
+    "description": "Bollinger Bands indicator handle"
+  },
+  "iATR": {
+    "type": "function",
+    "signature": "int iATR(string symbol, ENUM_TIMEFRAMES timeframe, int ma_period)",
+    "description": "Average True Range indicator handle"
+  },
+  "iCustom": {
+    "type": "function",
+    "signature": "int iCustom(string symbol, ENUM_TIMEFRAMES timeframe, string name, ...)",
+    "description": "Custom indicator handle"
+  },
+  "CopyBuffer": {
+    "type": "function",
+    "signature": "int CopyBuffer(int indicator_handle, int buffer_num, int start_pos, int count, double buffer[])",
+    "description": "Copies indicator data into array"
+  },
+  "SetIndexBuffer": {
+    "type": "function",
+    "signature": "bool SetIndexBuffer(int index, double buffer[], ENUM_INDEXBUFFER_TYPE type)",
+    "description": "Binds array to custom indicator buffer"
+  },
+  "OnnxCreate": {
+    "type": "function",
+    "signature": "long OnnxCreate(const string filename, uint flags)",
+    "description": "Creates ONNX model handle from file"
+  },
+  "OnnxCreateFromBuffer": {
+    "type": "function",
+    "signature": "long OnnxCreateFromBuffer(const uchar &buffer[], uint flags)",
+    "description": "Creates ONNX model handle from memory buffer"
+  },
+  "OnnxSetInputShape": {
+    "type": "function",
+    "signature": "bool OnnxSetInputShape(long handle, ulong index, const long &shape[])",
+    "description": "Sets tensor input shape"
+  },
+  "OnnxRun": {
+    "type": "function",
+    "signature": "bool OnnxRun(long handle, uint flags, const void &inputs[], void &outputs[])",
+    "description": "Runs ONNX neural network inference"
+  },
+  "OnnxRelease": {
+    "type": "function",
+    "signature": "void OnnxRelease(long handle)",
+    "description": "Frees ONNX model handle"
+  },
+  "CLContextCreate": {
+    "type": "function",
+    "signature": "long CLContextCreate(ENUM_CL_DEVICE_TYPE device_type)",
+    "description": "Creates OpenCL context"
+  },
+  "CLKernelCreate": {
+    "type": "function",
+    "signature": "long CLKernelCreate(long program, string kernel_name)",
+    "description": "Creates OpenCL kernel handle"
+  },
+  "OnInit": {
+    "type": "event",
+    "signature": "int OnInit()",
+    "description": "Initialization event handler"
+  },
+  "OnDeinit": {
+    "type": "event",
+    "signature": "void OnDeinit(const int reason)",
+    "description": "Deinitialization event handler"
+  },
+  "OnTick": {
+    "type": "event",
+    "signature": "void OnTick()",
+    "description": "Tick data event handler for EAs"
+  },
+  "OnCalculate": {
+    "type": "event",
+    "signature": "int OnCalculate(const int rates_total, const int prev_calculated, ...)",
+    "description": "Calculation event handler for Custom Indicators"
+  }
+}
